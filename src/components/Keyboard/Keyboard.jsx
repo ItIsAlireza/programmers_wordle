@@ -1,5 +1,5 @@
-import { handleKeyPress } from "./utils/keyboardHandler";
-import { FIRST_ROW, SECOND_ROW, THIRD_ROW } from "./constants/keyboard";
+import {handleKeyPress} from "../../utils/keyboardHandler";
+import { FIRST_ROW, SECOND_ROW, THIRD_ROW } from "../../constants/keyboard";
 
 const Keyboard = ({
   setGuesses,
