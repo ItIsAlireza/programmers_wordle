@@ -1,9 +1,9 @@
-import logo from "./assets/images/logo.png";
-import GuessBox from "./components/GuessBox/GuessBox";
-import Keyboard from "./components/keyboard/Keyboard";
-import Modal from "./components/modal/Modal";
+import logo from "@/assets/images/logo.png";
+import GuessBox from "@/components/GuessBox/GuessBox";
+import Keyboard from "@/components/keyboard/Keyboard";
+import Modal from "@/components/modal/Modal";
 
-import { useWordleGame } from "./hooks/useWordleGame";
+import { useWordleGame } from "@/hooks/useWordleGame";
 function App() {
   const {
     word,
