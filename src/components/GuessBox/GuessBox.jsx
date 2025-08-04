@@ -1,4 +1,4 @@
-import { getLetterStatus } from "@/utils/getLetterStatus";
+import { getLetterStatus } from "./utils/getLetterStatus";
 const GuessBox = ({ guess = "", solution, submitted }) => {
   return (
     <div className="flex flex-row items-center gap-2 mt-2">

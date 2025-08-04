@@ -1,5 +1,5 @@
 import { useState, useEffect } from "react";
-import { loadWordList } from "@/utils/load_word";
+import { loadWordList } from "./utils/load_word";
 
 export const useWordleGame = () => {
   const [word, setWord] = useState(null);
